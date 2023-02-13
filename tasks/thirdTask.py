@@ -9,7 +9,6 @@ def get_user_input():
   n = input(str("Enter:"))
   return n
 
-
 def remove_duplicate_a(input):
     start = time.time() 
     print("Result:", "".join(OrderedDict.fromkeys(input)))

@@ -7,6 +7,7 @@ def second_task():
 def get_user_input():
     n = int(input("Enter a number: "))
     return n
+
 def self_divisible_a(input):
     start = time.time()
     result = all([int(digit) != 0 and input % int(digit) == 0 for digit in str(input)]) 
